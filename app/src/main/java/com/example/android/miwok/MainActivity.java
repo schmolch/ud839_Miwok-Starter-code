@@ -34,4 +34,6 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Zahlen.class);
         startActivity(i);
     }
+
+    NumbersClickListener clickListener = new NumbersClickListener();
 }
