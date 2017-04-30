@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void oeffneZahlen (View view){
-        System.out.println("JAJAJQ");
         Intent i = new Intent(this, Zahlen.class);
         startActivity(i);
     }
