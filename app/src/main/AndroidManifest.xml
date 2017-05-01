@@ -34,9 +34,15 @@
             android:label="Zahlen"
             android:background="@color/category_numbers"
             />
-        <activity android:name=".Familienmitglieder" />
-        <activity android:name=".Farben" />
-        <activity android:name=".Ausdruecke"></activity>
+        <activity android:name=".Familienmitglieder"
+            android:label="Familie"
+            />
+        <activity android:name=".Farben"
+            android:label="Farben"
+            />
+        <activity android:name=".Ausdruecke"
+            android:label="Redewendungen"
+            ></activity>
     </application>
 
 </manifest>
